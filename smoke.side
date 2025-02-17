@@ -2,7 +2,7 @@
   "id": "905189b8-26a7-474b-8d3c-f107c4fe1c03",
   "version": "2.0",
   "name": "Smoke Test",
-  "url": "http://192.168.18.11:5500/teton/1.6/index.html",
+  "url": "http://127.0.0.1:5500/teton/1.6/index.html",
   "tests": [{
     "id": "0b5f8a16-a51a-4792-a5e3-83dc36d4f97c",
     "name": "Home Page",
@@ -10,7 +10,7 @@
       "id": "500ae04e-fe60-409b-8333-171fbc8c83d6",
       "comment": "",
       "command": "open",
-      "target": "http://192.168.18.11:5500/teton/1.6/index.html",
+      "target": "http://127.0.0.1:5500/teton/1.6/index.html",
       "targets": [],
       "value": ""
     }, {
@@ -123,7 +123,7 @@
       "id": "430e3dd4-23ab-4494-8177-6db97bdf29ab",
       "comment": "",
       "command": "open",
-      "target": "http://192.168.18.11:5500/teton/1.6/index.html",
+      "target": "http://127.0.0.1:5500/teton/1.6/index.html",
       "targets": [],
       "value": ""
     }, {
@@ -231,7 +231,7 @@
       "id": "1ee865db-a6f7-42a6-b23c-e7136f22fdf7",
       "comment": "",
       "command": "open",
-      "target": "http://192.168.18.11:5500/teton/1.6/index.html",
+      "target": "http://127.0.0.1:5500/teton/1.6/index.html",
       "targets": [],
       "value": ""
     }, {
@@ -418,7 +418,7 @@
       "id": "a5d29e22-4cb6-4557-beca-9c4db40896bf",
       "comment": "",
       "command": "open",
-      "target": "http://192.168.18.11:5500/teton/1.6/admin.html",
+      "target": "http://127.0.0.1:5500/teton/1.6/index.html",
       "targets": [],
       "value": ""
     }, {
@@ -556,6 +556,6 @@
     "timeout": 300,
     "tests": ["d61465db-e405-4184-b999-efa136b11e12", "240813bb-8444-4321-afe6-bcc1d196eff8", "0b5f8a16-a51a-4792-a5e3-83dc36d4f97c", "7ed2c422-d44f-4b69-a74f-bef152acda1e"]
   }],
-  "urls": ["http://192.168.18.11:5500/teton/1.6/index.html"],
+  "urls": ["http://192.168.18.11:5500/teton/1.6/index.html", "http://127.0.0.1:5500/teton/1.6/index.html"],
   "plugins": []
 }
